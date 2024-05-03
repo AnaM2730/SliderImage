@@ -67,7 +67,7 @@
                 </div>             
             </div>
         </div>
-            <a href="#" class="play"><i class="fa fa-play" aria-hidden="true"></i>Watch Trailer</a>
+            <a href="#" class="play" onclick="toggleVideo();"><i class="fa fa-play" aria-hidden="true"></i>Watch Trailer</a>
             <ul class="sci">
                 <!-- (li>a)*3 -->
                 <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -75,9 +75,13 @@
                 <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
             </ul>     
     </div>
-<!-- TRAILER -->
+<!------- TRAILER ------>
     <div class="trailer">
-        <video src="./img/movies/"></video>
+        <video src="./img/video/Coldplay X BTS - My Universe (Official Lyric Video).mp4"
+        muted 
+        controls="true"
+        autoplay="true"></video>
+        <img src="img/close.png" alt="" class="close" onclick="toggleVideo();">
     </div>
 
 
